@@ -1,8 +1,60 @@
+# Dependencies
 node_modules/
-build/
-dist/
-coverage/
-.DS_Store
-*.log
-.env*
+.pnp
+.pnp.js
+
+# Environment variables & secrets (CRITICAL: Prevents API key and secret leakage)
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 !.env.example
+
+# Service account keys, credentials & Cloud secret files
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+*.pkcs12
+*id_rsa*
+*id_ed25519*
+*service-account*.json
+*service_account*.json
+*serviceAccount*.json
+*credentials*.json
+client_secret*.json
+google-services.json
+firebase_admin_key*.json
+firebase-admin*.json
+
+# Production & Build outputs
+dist/
+build/
+out/
+coverage/
+.turbo/
+.cache/
+*.tsbuildinfo
+
+# Logs & Diagnostics
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# System & Editor files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.tmp
+*.bak

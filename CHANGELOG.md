@@ -25,6 +25,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - **Statutory Financial Breakdown in Formal Compliance Reports**:
   - Integrated the financial liability exposure baseline and regulatory fine caps into the downloadable Markdown and printable Compliance Reports in `ReportModal.tsx`.
 
+- **GitHub Sync Security & Secret Leakage Hardening (`.gitignore`)**:
+  - Configured comprehensive security filter rules preventing accidental leakage of `.env`, `.env.*`, API keys, private keys (`*.pem`, `*.key`, `*id_rsa*`), certificates, Firebase admin credentials, and Cloud service account JSONs during GitHub synchronization.
+
+### Changed
+- **Application-wide Terminology Alignment**: Change the word from "dossier" to "report" for the entire application (including UI headers, navigation buttons, download triggers, modal titles, and system documentation).
+
 ---
 
 ## [1.6.0] - 2026-08-30
