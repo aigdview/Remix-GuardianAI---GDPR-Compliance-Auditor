@@ -1,0 +1,8 @@
+{
+  "name": "Remix GuardianAI - GDPR Compliance Auditor",
+  "description": "Autonomous GDPR Project Compliance \u0026 Audit Agent with real-time tool execution monitor, clause verification, schema scanner, and remediation task generator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
