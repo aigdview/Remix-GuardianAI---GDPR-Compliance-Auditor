@@ -186,11 +186,11 @@ export default function App() {
     // Check if this run is still the active one before streaming animation
     if (runId !== currentRunIdRef.current) return;
 
-    // Progressive reveal animation for tool calls guarded by run ID
+    // Progressive reveal animation for tool calls guarded by run ID (optimized fast stream)
     if (result.toolExecutions && result.toolExecutions.length > 0) {
       for (let i = 0; i < result.toolExecutions.length; i++) {
         if (runId !== currentRunIdRef.current) return;
-        await new Promise(r => setTimeout(r, 90));
+        await new Promise(r => setTimeout(r, 25));
         if (runId !== currentRunIdRef.current) return;
         setToolExecutions(prev => [...prev, result.toolExecutions[i]]);
       }
