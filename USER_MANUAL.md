@@ -109,14 +109,15 @@ On the **Right Dashboard**, explore the findings across 4 dedicated tabs:
 ### Step 4: Autonomous One-Click Auto-Fix & PR Generator
 Turn findings into immediate code patches without leaving the browser:
 
-1. **Individual Fix**: Click **"Auto-Fix & PR Diff"** on any remediation task card.
-2. **Master Auto-Remediation**: Click **"Auto-Fix All"** in the banner atop the task list.
-3. **Interactive Pull Request Modal**:
+1. **Individual Task Fix**: Click **"Auto-Fix & PR Diff"** on any remediation task card to generate a targeted patch for that specific statutory violation.
+2. **Master Engineering Auto-Remediation ("Auto-Fix All")**: Click **"Auto-Fix All"** atop the task list to bundle all detected technical violations across the entire architecture into a comprehensive master Pull Request.
+3. **Executive Financial Mitigation ("Deploy Auto-Fix PRs Now")**: Inside the **Fine Simulator** tab, toggle high-impact financial levers (*AES-256*, *Tokenization*, *Consent Table*, *90-Day Auto-Purge*) and click **"Deploy Auto-Fix PRs Now"** to generate PRs specifically scoped to the active financial mitigation levers you selected.
+4. **Interactive Pull Request Modal**:
    - **Side-by-Side Diff**: Inspect before (vulnerable) and after (remediated) code fragments.
    - **Unified Git Patch**: Copy `git apply`-compatible diffs or click **"Download .patch"**.
    - **PR Markdown**: Copy ready-to-paste pull request templates with statutory citations.
    - **Git CLI Command**: Click **"Copy Git CLI Cmd"** to instantly branch and commit in your terminal.
-4. **One-Click Apply & Re-Audit**: Click **"Apply Fix to Schema & Re-Audit"** to inject the patch into your active schema, adjust security toggles automatically, and trigger an instant compliance re-evaluation.
+5. **One-Click Apply & Re-Audit**: Click **"⚡ Apply Fix to Schema & Re-Audit"** to inject the patch into your active schema, adjust security toggles automatically, and trigger an instant compliance re-evaluation.
 
 ---
 

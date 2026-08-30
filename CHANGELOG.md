@@ -31,6 +31,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Changed
 - **Application-wide Terminology Alignment**: Change the word from "dossier" to "report" for the entire application (including UI headers, navigation buttons, download triggers, modal titles, and system documentation).
 - **Execution Stream Performance Optimization (`App.tsx`)**: Reduced tool call animation delay from 90ms to 25ms per invocation step (~75% latency reduction), accelerating the real-time presentation of multi-standard compliance audit results.
+- **Documentation & User Manual Updates (`USER_MANUAL.md`)**: Expanded Step 4 documentation with clear operational distinctions between the engineering **"Auto-Fix All"** suite and the executive **"Deploy Auto-Fix PRs Now"** financial mitigation workflow.
 
 ---
 
